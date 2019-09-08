@@ -1,7 +1,7 @@
-'use strict'
+"use strict";
 
-const funWithUpVar = ()=>{
-    tt = 27;
+const funWithUpVar = () => {
+  let tt = 27;
 };
-var tt;
+
 console.log(funWithUpVar());
